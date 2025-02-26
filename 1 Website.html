@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metrocraft - Citybuild & Squid Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(270deg, #1e3c72, #2a5298, #ff5733, #ff8c42);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        header {
+            padding: 20px;
+            font-size: 3em;
+            font-weight: bold;
+            text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 1.2em;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        }
+        .join { background: linear-gradient(45deg, #ff5733, #ff8c42); }
+        .premium { background: linear-gradient(45deg, #ffcc00, #ffd633); }
+        .platin { background: linear-gradient(45deg, #4caf50, #66bb6a); }
+        .paypal { background: #0070ba; }
+        .paypal:hover { background: #005f8a; }
+        .squidgame-section {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+        }
+        .squidgame-section h2 {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>Metrocraft - Dein Citybuild & Squid Game Server!</header>
+    <div class="container">
+        <h2>Willkommen auf Metrocraft!</h2>
+        <p>Metrocraft bietet dir das ultimative Citybuild-Erlebnis mit einzigartigen Features.</p>
+        
+        <div class="squidgame-section">
+            <h2>🎮 Squid Game Modus 🎮</h2>
+            <p>Du willst Nervenkitzel? Spiele Squid Game auf Metrocraft und kämpfe um fantastische Belohnungen!</p>
+            <p>✔ Mehrere Minispiele wie "Rotes Licht, Grünes Licht", "Dalgona Challenge" und mehr!</p>
+            <p>✔ Gewinne exklusive Preise und Items für deinen Citybuild-Fortschritt!</p>
+            <p>✔ Zeige deine Skills und werde der Champion!</p>
+        </div>
+
+        <a href="#" class="button join">Jetzt beitreten</a>
+        <br>
+        <a href="https://www.paypal.com/donate?business=felixmaier160319@gmail.com" class="button premium">Premium Rang - 1,99€</a>
+        <a href="https://www.paypal.com/donate?business=felixmaier160319@gmail.com" class="button platin">Platin Rang - 3,99€</a>
+        <br>
+        <a href="https://www.paypal.com/donate?business=felixmaier160319@gmail.com&amount=" class="button paypal">Spenden für Metrocraft</a>
+    </div>
+</body>
+</html>
